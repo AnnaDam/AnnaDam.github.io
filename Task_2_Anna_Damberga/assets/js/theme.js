@@ -31,4 +31,3 @@
         document.getElementById("overlay_navigation").style.height = "0%";
         document.getElementById("go_up").style.zIndex = "2";
         document.getElementById("close_nav").style.display = "none";
-    }
