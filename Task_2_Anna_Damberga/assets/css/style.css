@@ -456,6 +456,7 @@ footer {
     left: 25.5%;
     margin-top: -20%;
     width: 17%;
+    z-index: 1;
 }
 
 .bottom_nav a {
@@ -481,12 +482,6 @@ footer {
     font-size: 24px;
     line-height: 29px;
 }
-
-/* .biedriba_numuri {
-
-} */
-
-/* kontaktinformācija */
 
 .kontakti {
     position: absolute;
@@ -613,10 +608,8 @@ footer {
         background-color: white;
         overflow-y: hidden;
         transition: 0.5s;
-    }
-    
+    } 
 }
-
 
 @media (max-width: 1228px) {
 
@@ -666,8 +659,8 @@ footer {
     #vards {
         position: absolute;
         text-align: left;
-        left: 21%;
-        top: 60%;
+        left: 23%;
+        top: 91%;
     }
 
     footer {
@@ -828,6 +821,13 @@ footer {
     #pagarinajums {
         height: 64px;
     }  
+    
+    #vards {
+        position: absolute;
+        text-align: left;
+        left: 21%;
+        top: 64%;
+    }
 }
 
 
@@ -892,8 +892,7 @@ footer {
         width: 52.2%;
         left: unset;
         right: 0;
-        margin-top: 51%;
-        
+        margin-top: 51%;   
     }
 
     #mala2 {
@@ -1039,6 +1038,4 @@ footer {
         left: 0%;
         top: -38%;
     }
-
 }
-
