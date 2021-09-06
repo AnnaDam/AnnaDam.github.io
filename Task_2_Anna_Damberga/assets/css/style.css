@@ -557,7 +557,7 @@ footer {
         position: relative;
         text-align: center;
         transform: translatex(-10%);
-        margin-top: 24.5%;
+        margin-top: 28.5%;
     }
     
     .nav a {
@@ -584,12 +584,13 @@ footer {
     }
 
     .valoda a {
-        margin: 3.3%;
+        margin: 7.3%;
+        margin-top: 0.5%;
     }
 
     .nav li {
         float: none;
-        padding-bottom: 3.3%;
+        margin-top: 11.3%;
         padding-left: unset;
 
     }
@@ -641,7 +642,7 @@ footer {
     .footer_logo {
         width: 88.5%;
         margin-top: -15%;
-        left: 11%;
+        left: 10%;
     }
     
     #golden_logo {
@@ -650,12 +651,12 @@ footer {
 
     #copyright {
         width: 100%;
-        bottom: -73%;
+        bottom: -78%;
         font-size: 16px;
     }  
 
     .kontakti {
-        margin-top: -12%;
+        margin-top: -11%;
         right: 10.5%;
     }
     
@@ -667,9 +668,9 @@ footer {
     }
 
     .media {
-        margin-left: 4%;
-        margin-bottom: 3.5%;
-        margin-top: 2%;
+        margin-left: 2%;
+        margin-bottom: 4.5%;
+        margin-top: 3.5%;
         height: 25px;
     }
 
@@ -752,7 +753,7 @@ footer {
     }
 
     .sazina {
-        margin-top: 18%;
+        margin-top: 17%;
         left: 0;
         width: 100%;
     } 
@@ -813,7 +814,8 @@ footer {
     }
 
     #grid {
-        margin-top: -5%;
+        margin-top: -6.3%;
+        margin-left: -1%;
     }
 
     #atbalstitaji_title {
@@ -824,25 +826,25 @@ footer {
     #container_teikums {
         width: 144px;
         height: 47px;
-        margin-top: 6%;
+        margin-left: 3%;
     }
     
     #container_sem{
         width: 123px;
         height: 47px;
-        margin-top: 6.7%;
+        margin-left: -2%;
     }
     
     #container_citybee{
         width: 142px;
         height: 47px;
-        margin-top: 6%;
+        margin-left: -2%;
     }
     
     #container_linearis {
         width: 49px; 
         height: 71px;
-        margin-top: 6%;
+        margin-left: 1%;
     }
     
     .atbalstitaji_logo {
@@ -852,14 +854,14 @@ footer {
     }
 
     #pagarinajums {
-        height: 64px;
+        height: 68px;
     }  
 
     #vards {
         position: absolute;
         text-align: left;
         left: 21%;
-        top: 64%;
+        top: 57%;
     }
 }
 
