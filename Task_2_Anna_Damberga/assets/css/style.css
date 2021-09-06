@@ -40,7 +40,7 @@ h3 {
 /* Navigācija */
 
 .nav {
-    margin-left: 16.5%;
+    margin-left: 16.27%;
 }
 
 #nav_icon {
@@ -53,7 +53,7 @@ h3 {
 
 .nav li {
     float: left;
-    padding-left: inherit;
+    padding-left: 3.85%;
     margin-top: 3.5%;
 }
 
@@ -139,14 +139,14 @@ h3 {
 #mala2 {
     position: absolute;
     width: 100%;
-    top: -6px;
+    top: -2px;
     z-index: 1;
 }
 
 #mala3 {
     position: absolute;
     width: 100%;
-    margin-top: 25%;
+    margin-top: 24.9%;
     z-index: 1;
 }
 
@@ -168,7 +168,7 @@ h3 {
 
 #Sibilla {
    width: 100%;
-   margin-top: 3.5%;
+   margin-top: 5%;
 }
 
 .collumn {
@@ -179,13 +179,13 @@ h3 {
 
 #Meita {
     position: absolute;
-    margin-top: 3.5%;
+    margin-top: 5.5%;
     width: 100%;
 }
 
 #Alina {
     position: absolute;
-    margin-top: 64%;
+    margin-top: 66%;
     width: 100%;
 }
 
@@ -197,14 +197,15 @@ h3 {
 
 #Anda {
     width: 100%;
+    margin-top: -0.5%;
 }
 
 /*  piepildīt sapni */
 
 .sapni {
     width: 100%;
-    margin-top: 51%;
-    padding-bottom: 19.5%;
+    margin-top: 49.8%;
+    padding-bottom: 20.4%;
 }
 
 .sapnotajiem {
@@ -219,7 +220,7 @@ h3 {
     position: relative;
     width: 48.9%;
     float: right;
-    right: 6.5%;
+    right: 6.2%;
     text-align: center;
 }
 
@@ -248,13 +249,13 @@ h3 {
 
 .sazina {
     position: relative;
-    width: 44.5%;
+    width: 44.7%;
     text-align: center;
-    left: 27.5%;
+    left: 27.6%;
 }
 
 #sazinaForm {
-    padding-top: 1%;
+    padding-top: 2.1%;
 }
 
 .mainForm {
@@ -279,11 +280,11 @@ h3 {
 }
 
 #phone {
-    width: 100%;
+    width: 99%;
 }
 
 #message {
-    width: 100%;
+    width: 99%;
     height: 232px;
 }
 
@@ -496,7 +497,7 @@ footer {
     line-height: 29px;
 }
 
-.media {
+.social_media {
     margin-left: 3%;
     margin-bottom: 2.5%;
     margin-top: 1%;
@@ -531,7 +532,7 @@ footer {
 
 /* navigācija */
 
-@media (max-width: 1275px) {
+@media (max-width: 1285px) {
 
     /* Pārveido navigāciju*/
 
@@ -608,7 +609,7 @@ footer {
         background-color: white;
         overflow-y: hidden;
         transition: 0.5s;
-    } 
+    }
 }
 
 @media (max-width: 1228px) {
@@ -649,7 +650,7 @@ footer {
         color: white;
     }
 
-    .media {
+    .social_media {
         margin-left: 4%;
         margin-bottom: 3.5%;
         margin-top: 2%;
@@ -821,7 +822,7 @@ footer {
     #pagarinajums {
         height: 64px;
     }  
-    
+
     #vards {
         position: absolute;
         text-align: left;
@@ -892,7 +893,8 @@ footer {
         width: 52.2%;
         left: unset;
         right: 0;
-        margin-top: 51%;   
+        margin-top: 51%;
+        
     }
 
     #mala2 {
@@ -991,7 +993,6 @@ footer {
         padding-bottom: 150.94%;
     }
 
-
     .footer_logo {
         margin-top: -8%;
         left: 6%;
@@ -1026,7 +1027,7 @@ footer {
         font-size: 14px;
     }
 
-    .media {
+    .social_media {
         margin-right: 6%;
         margin-top: 7%;
         left: 0;
@@ -1038,4 +1039,5 @@ footer {
         left: 0%;
         top: -38%;
     }
+
 }
