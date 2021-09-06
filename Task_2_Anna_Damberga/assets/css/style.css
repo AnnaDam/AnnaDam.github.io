@@ -701,13 +701,13 @@ footer {
     }
 
     #mainLogo {
-        width: 15.37%;
+        width: 16.6%;
         left: 10.54%;
     }
 
     #nav_icon {
-        margin-top: 4.5%;
-        right: 11%;
+        margin-top: 4.6%;
+        right: 10.5%;
     }
 
     .video {
@@ -728,6 +728,10 @@ footer {
         height: 62.67%;
         transform: translate(-21%);
         top: 22%;
+    }
+
+    .bildes {
+        margin-top: -0.2%;
     }
 
     .sapni {
@@ -751,6 +755,10 @@ footer {
         margin-top: 18%;
         left: 0;
         width: 100%;
+    } 
+
+    #sazinaForm {
+        padding-top: 1.8%;
     }
 
     .mainForm {
@@ -772,16 +780,20 @@ footer {
 
     #phone {
         width: 78.65%;
+        margin-top: 1.5%;
     }
     
     #message {
         width: 78.65%;
         height: 230px;
+        margin-top: 2%;
     }
 
     .afterForm {
         left: 11%;
         width: 80%;
+        margin-left: -0.5%;
+        margin-top: -0.5%;
     }
     
     #notice {
@@ -792,8 +804,12 @@ footer {
         margin-bottom: 5%;
     }
 
+    .send_button {
+        margin-top: 2.3%;
+    }
+
     .atbalstitaji {
-        margin-top: 19.7%;
+        margin-top: 19%;
     }
 
     #grid {
@@ -802,7 +818,7 @@ footer {
 
     #atbalstitaji_title {
         font-size: 24px;
-        margin-top: -31%;;
+        margin-top: -30%;;
     }
     
     #container_teikums {
@@ -848,7 +864,7 @@ footer {
 }
 
 
-@media (max-width: 656px) {
+@media (max-width: 660px) {
 
     h2 {
         font-size: 24px;
@@ -912,7 +928,7 @@ footer {
     .container_sibilla {
         width: 51.6%;
         left: 48.5%;
-        margin-top: 51.6%;      
+        margin-top: 51.5%;      
     }
 
     #mala2 {
