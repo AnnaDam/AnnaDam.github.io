@@ -87,6 +87,7 @@ h3 {
     width: 11.65%;
     left: 4.54%;
     top: 0px;
+    z-index: 1;
 }
  
 /* Video */
@@ -554,7 +555,6 @@ footer {
 
     .nav {
         position: relative;
-        width: 100%;
         text-align: center;
         transform: translatex(-10%);
         margin-top: 24.5%;
@@ -856,7 +856,7 @@ footer {
     }
 
     #mainLogo {
-        width: 24.37%;
+        width: 25.37%;
         left: 5.54%;
     }
 
@@ -870,7 +870,7 @@ footer {
     }
 
     .video {
-        margin-top: 16%;
+        margin-top: 16.2%;
     }
 
     #play {
@@ -878,21 +878,25 @@ footer {
     }
 
     .text {
-        height: 230px;
+        height: 197px;
     }
 
     #desc {
         width: 87.55%;
         font-size: 12px;
         line-height: 15px;
-        transform: translate(-20%);
+        transform: translate(-23%);
+    }
+
+    .bildes {
+        margin-top: 15%;
     }
     
     .collumn {
         width: 42.5%;
         left: 0;
         z-index: -2;
-        top: -2px;
+        top: -1px;
     }
 
     .container_anda {
@@ -901,16 +905,14 @@ footer {
     }
 
     .container_zanda {
-        margin-top: 51%;
+        margin-top: 52.2%;
         width: 52.5%;
     }
 
     .container_sibilla {
-        width: 52.2%;
-        left: unset;
-        right: 0;
-        margin-top: 51%;
-        
+        width: 51.6%;
+        left: 48.5%;
+        margin-top: 51.6%;      
     }
 
     #mala2 {
@@ -922,13 +924,13 @@ footer {
     }
 
     .sapni {
-        margin-top: 156%;
+        margin-top: 164.4%;
     }
 
     .sapnotajiem {
         width: 90%;
         transform: translatex(6%);
-        margin-bottom: 24%;
+        margin-bottom: 25%;
         float: none;
         left: unset;
     }
@@ -942,6 +944,10 @@ footer {
 
     .button {
         margin-top: -1%;
+    }
+
+    .sazina {
+        margin-top: 17%;
     }
 
     #sazinaForm {
@@ -962,39 +968,41 @@ footer {
 
     #email {
         margin-left: unset;
-        margin-top: 1%;
+        margin-top: 2%;
     }
 
     #phone {
         width: 86.25%;
-        margin-top: -2%;
+        margin-top: 3%;
     }
 
     #message {
         width: 86.25%;
         height: 146px;
-        margin-top: -1%;
+        margin-top: 3.5%;
     }
 
     .afterForm {
         font-size: 12px;
         width: 86.25%;
         left: 6%;
-        margin-top: -3%;
+        margin-top: 2%;
     }
 
     #agreement {
         font-size: 12px;
         line-height: 14.63px;
         width: 89%;
+        margin-left: 7%;
+        margin-top: 3%;
     }
 
     .send_button {
         width: 140px;
         height: 47.69px;
         font-size: 18px;
-        margin-top: 20%;
-        margin-bottom: 27%;
+        margin-top: 18%;
+        margin-bottom: 21.5%;
     }
 
     #atbalstitaji_title {
@@ -1002,16 +1010,42 @@ footer {
     }
 
     #grid {
-        margin-top: 15%;
+        margin-top: 13%;
+    }
+
+    #container_teikums {
+        width: 130px;
+        height: 44px;
+        margin-top: 6%;
+        margin-left: -7%;
+    }
+
+    #container_sem {
+        width: 131px;
+        height: 51px;
+        margin-top: 5%;
+    }
+
+    #container_citybee {
+        width: 131px;
+        height: 44px;
+        margin-top: 7%;
+        margin-left: -4%;
+    }
+
+    #container_linearis {
+        width: 48px;
+        height: 67px;
+        margin-top: 10%;
+        margin-left: 9%;
     }
 
     footer {
         padding-bottom: 150.94%;
     }
 
-
     .footer_logo {
-        margin-top: -8%;
+        margin-top: -9%;
         left: 6%;
     }
     
@@ -1021,7 +1055,7 @@ footer {
 
     #copyright {
         width: 100%;
-        bottom: -275%;
+        bottom: -285%;
         font-size: 11px;
     }  
 
@@ -1045,8 +1079,8 @@ footer {
     }
 
     .media {
-        margin-right: 6%;
-        margin-top: 7%;
+        margin-right: 7.5%;
+        margin-top: 16%;
         left: 0;
         margin-left: unset;
     }
@@ -1054,7 +1088,29 @@ footer {
     #vards {
         font-size: 18px;
         left: 0%;
-        top: -38%;
+        top: -36.5%;
+    }
+
+    #close_nav {
+        margin-top: 5.6%;
+        width: 5%;
+        right: 7.3%;
+    }
+
+    .nav {
+        margin-top: 46.5%;
+    }
+
+    .nav a {
+        font-size: 18px;
+    }
+
+    .nav li {
+        margin-top: 13.6%;
+    }
+
+    valoda a {
+        margin: 5.6%;
     }
 
 }
