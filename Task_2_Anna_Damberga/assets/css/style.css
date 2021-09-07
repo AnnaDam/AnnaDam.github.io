@@ -148,19 +148,18 @@ h3 {
     position: absolute;
     width: 100%;
     top: -2px;
-    z-index: 1;
 }
 
 .mala3 {
     position: absolute;
     width: 100%;
     margin-top: 24.9%;
-    z-index: 1;
 }
 
 .container_zanda {
     position: absolute;
     width: 24.02%;
+    z-index: -1;
 }
 
 #Zanda {
@@ -172,17 +171,19 @@ h3 {
     position: absolute;
     width: 24.45%;
     left: 24.02%;
+    z-index: -1;
 }
 
 .Sibilla {
    width: 100%;
-   margin-top: 5%;
+   margin-top: 5%; 
 }
 
 .collumn {
     position: absolute;
     width: 21.82%;
     right: 29.75%;
+    z-index: -1;
 }
 
 #Meita {
@@ -201,6 +202,7 @@ h3 {
     position: absolute;
     width: 29.75%;
     right: 0;
+    z-index: -1;
 }
 
 #Anda {
@@ -593,6 +595,7 @@ footer {
         line-height: 29px;
         transition: 0.3s;
         margin: 3.3%;
+        margin-left: unset !important;
     }
 
     .nav ul {
@@ -963,11 +966,11 @@ footer {
     }
 
     .mala2 {
-        top: 0px;
+        top: -1px;
     } 
 
     .mala3 {
-        margin-top: 104%;
+        margin-top: 103.2%;
     }
 
     .sapni {
@@ -1102,7 +1105,7 @@ footer {
     }
 
     .footer_logo {
-        margin-top: -138.5%;
+        margin-top: -134.5%;
         left: 6.1%;
     }
     
@@ -1112,18 +1115,18 @@ footer {
 
     #copyright {
         width: 100%;
-        top: 337%;
+        top: 352%;
         font-size: 11px;
     }  
 
     #privatuma_politika {
         font-size: 11px;
         position: absolute;
-        top: 126%;
+        top: 123%;
     }
 
     .kontakti {
-        margin-top: -85.5%;
+        margin-top: -80.5%;
         font-size: 12px;
         text-align: left;
         left: 6%;
@@ -1145,7 +1148,7 @@ footer {
     #vards {
         font-size: 18px;
         left: 0%;
-        top: -33.5%;
+        top: -36.5%;
     }
 
     #close_nav {
