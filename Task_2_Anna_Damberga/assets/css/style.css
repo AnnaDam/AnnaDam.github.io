@@ -282,29 +282,11 @@ h3 {
 
 ::-webkit-input-placeholder {
     position: absolute;
+    margin-left: 2%;
     -webkit-transform: translateY(50%);
     transform: translateY(50%);
     color: #2F4858;
 }
-
-#name::-webkit-input-placeholder {
-    margin-left: 3%;
-}
-
-#email::-webkit-input-placeholder {
-    margin-left: 4%;
-}
-
-#phone::-webkit-input-placeholder {
-    margin-left: 1.5%;
-}
-
-#message::-webkit-input-placeholder {
-    -webkit-transform: translateY(40%);
-    transform: translateY(40%);
-    margin-left: 1.5%;
-}
-
 
 ::placeholder {
     position: absolute;
