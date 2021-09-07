@@ -280,17 +280,10 @@ h3 {
     color: #2F4858;
 }
 
-::placeholder {
-    position: absolute;
-    margin-left: 2%;
-    transform: translateY(50%);
-    color: #2F4858;
-}
-
 ::-webkit-input-placeholder {
-    margin: 2.5%;
-    position: absolute;
-    margin-left: 2%;
+    position: relative;
+    left: 20px;
+    -webkit-transform: translateY(0%);
     color: #2F4858;
 }
 
@@ -302,8 +295,13 @@ h3 {
     opacity: 1;
 }
 
-
-
+::placeholder {
+    position: absolute;
+    margin-left: 2%;
+    left: unset;
+    transform: translateY(50%);
+    color: #2F4858;
+}
 
 #name {
     float: left;
