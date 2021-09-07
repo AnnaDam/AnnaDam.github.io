@@ -18,12 +18,10 @@
     font-family: 'montserrat-medium';
     src: url('montserrat-medium-webfont.woff2') format('woff2'),
          url('montserrat-medium-webfont.woff') format('woff');
-    /*font-weight: normal;*/
+    font-weight: normal;
     font-style: normal;
 
 }
-
-
 
 
 @font-face {
