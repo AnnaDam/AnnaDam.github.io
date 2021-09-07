@@ -283,15 +283,13 @@ h3 {
 ::placeholder {
     position: absolute;
     margin-left: 2%;
-    left: unset;
     transform: translateY(50%);
     color: #2F4858;
 }
 
 ::-webkit-input-placeholder {
     position: relative;
-    margin-left: unset;
-    left: 20px;
+    left: 2%;
     -webkit-transform: translateY(0%);
     color: #2F4858;
 }
@@ -588,8 +586,8 @@ footer {
     .nav {
         position: relative;
         text-align: center;
-        transform: translatex(-10%);
-        margin-top: 28.5%;
+        transform: translatex(-8%);
+        margin-top: 38.5%;
     }
     
     .nav a {
@@ -612,18 +610,24 @@ footer {
         transform: translatex(0%);
     }
 
+    #lv {
+        margin: 6%;
+        padding-left: 1%;
+    }
+
     .other_lang {
         display: inline-block;
     }
 
     .valoda a {
-        margin: 7.3%;
+        margin: 13%;
         margin-top: 0.5%;
+        transform: translatex(150%);
     }
 
     .nav li {
         float: none;
-        margin-top: 11.3%;
+        margin-top: 11.6%;
         padding-left: unset;
 
     }
