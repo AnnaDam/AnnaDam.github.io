@@ -60,7 +60,7 @@ h3 {
 .nav li {
     float: left;
     padding-left: 3.85%;
-    margin-top: 3.5%;
+    margin-top: 3.3%;
 }
 
 .nav a {
@@ -124,7 +124,7 @@ h3 {
 .text{
     width: 100%; 
     text-align: center;
-    margin-top: 11%; 
+    margin-top: 10.65%; 
     margin-bottom: 11.5%;
 } 
 
@@ -263,7 +263,7 @@ h3 {
 }
 
 #sazinaForm {
-    padding-top: 2.1%;
+    padding-top: 2%;
 }
 
 .mainForm {
@@ -286,11 +286,20 @@ h3 {
 }
 
 #name::placeholder {
-    transform: translateY(50%);
+    margin-left: 3%;
 }
 
 #email::placeholder {
-    transform: translateY(50%);
+    margin-left: 4%;
+}
+
+#phone::placeholder {
+    margin-left: 1.5%;
+}
+
+#message::placeholder {
+    transform: translateY(40%);
+    margin-left: 1.5%;
 }
 
 #name {
@@ -482,7 +491,7 @@ footer {
 .bottom_nav {
     position: absolute;
     left: 25.2%;
-    margin-top: -19.85%;
+    margin-top: -20%;
     width: 17%;
     z-index: 1;
 }
@@ -494,7 +503,7 @@ footer {
 }
 
 .bottom_nav li {
-    margin-bottom: 12%;
+    margin-bottom: 11.3%;
     margin-left: -0.5%;
 }
 
@@ -503,7 +512,8 @@ footer {
 .biedribas_info {
     position: absolute;
     width: 20.2%;
-    margin-top: -19%;
+    margin-top: -20.7%;
+    line-height: 21.9px;
     left: 47%;
 }
 
@@ -519,7 +529,7 @@ footer {
 .kontakti {
     position: absolute;
     width: 100%;
-    margin-top: -20.3%;
+    margin-top: -20.5%;
     right: 4.8%;
     text-align: right;
 }
@@ -567,7 +577,7 @@ footer {
 
 /* navigācija */
 
-@media (max-width: 1285px) {
+@media (max-width: 1300px) {
 
     /* Pārveido navigāciju*/
 
