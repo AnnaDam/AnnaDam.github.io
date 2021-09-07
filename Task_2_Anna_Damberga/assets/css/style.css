@@ -682,7 +682,9 @@ footer {
 
     #copyright {
         width: 100%;
-        bottom: -78%;
+        bottom: unset;
+        margin-top: 10%;
+        margin-bottom: unset;
         font-size: 16px;
     }  
 
@@ -709,7 +711,8 @@ footer {
         position: absolute;
         text-align: left;
         left: 23%;
-        top: 71%;
+        margin-top: 21%;
+        margin-bottom: unset;
     }
 
     footer {
@@ -892,7 +895,7 @@ footer {
         position: absolute;
         text-align: left;
         left: 21%;
-        top: 57%;
+        margin-top: 20%;
     }
 }
 
@@ -1055,6 +1058,78 @@ footer {
         margin-bottom: 21.5%;
     }
 
+    .footer_pamats {
+        height: 400px;
+    }
+
+    .atbalstitaji_pamats {
+        height: unset;
+    }
+
+    footer {
+        background: #ffcb66;
+    }
+
+    .footer_main {
+        margin-top: 12%;
+    }
+
+    .footer_logo {
+        margin-top: -47%;
+    }
+
+    #copyright {
+        font-size: 11px;
+        width: 50%;
+    }  
+
+    #privatuma_politika {
+        font-size: 11px;
+    }
+
+    .kontakti {
+        font-size: 12px;
+        margin-top: -44%;
+    }
+    
+    #rekviziti{
+        font-size: 14px;
+    }
+
+    #vards {
+        font-size: 18px;
+    }
+
+    #close_nav {
+        margin-top: 5.6%;
+        width: 5%;
+        right: 7.3%;
+    }
+
+    .nav {
+        margin-top: 46.5%;
+    }
+
+    .nav a {
+        font-size: 18px;
+    }
+
+    .nav li {
+        margin-top: 13.6%;
+    }
+
+    .valoda a {
+        margin: 5.6%;
+    }
+
+    #pagarinajums {
+        display: none;
+    } 
+
+}
+
+@media (max-width: 460px) {
+
     #atbalstitaji_title {
         margin-top: -203%;
     }
@@ -1096,12 +1171,8 @@ footer {
         height: 67px;
     }
 
-    #pagarinajums {
-        display: none;
-    }
-
-    .footer_main {
-        margin-top: 25%;
+    .footer_pamats{
+        height: unset;
     }
 
     .footer_logo {
@@ -1115,29 +1186,22 @@ footer {
 
     #copyright {
         width: 100%;
-        top: 352%;
-        font-size: 11px;
+        margin-top: 87%;
     }  
 
     #privatuma_politika {
-        font-size: 11px;
         position: absolute;
-        top: 123%;
+        margin-top: 14%;
     }
 
     .kontakti {
         margin-top: -80.5%;
-        font-size: 12px;
         text-align: left;
         left: 6%;
         line-height: 13px;
         width: unset;
     }
     
-    #rekviziti{
-        font-size: 14px;
-    }
-
     .media {
         margin-right: 7.5%;
         margin-top: 16%;
@@ -1146,39 +1210,20 @@ footer {
     }
 
     #vards {
-        font-size: 18px;
-        left: 0%;
-        top: -36.5%;
-    }
+        left: 0%;    
+        margin-top: -18%;
 
-    #close_nav {
-        margin-top: 5.6%;
-        width: 5%;
-        right: 7.3%;
     }
-
-    .nav {
-        margin-top: 46.5%;
-    }
-
-    .nav a {
-        font-size: 18px;
-    }
-
-    .nav li {
-        margin-top: 13.6%;
-    }
-
-    .valoda a {
-        margin: 5.6%;
-    }
-
 }
 
 @media (max-width: 380px) {
 
     footer {
         padding-bottom: unset;
+    }
+
+    .footer_main {
+        margin-top: 25%;
     }
 
     #container_teikums {
@@ -1200,6 +1245,10 @@ footer {
 
     .empty {
         display:none;
+    }
+
+    .atbalstitaji_pamats {
+        height: unset;
     }
 
 }
