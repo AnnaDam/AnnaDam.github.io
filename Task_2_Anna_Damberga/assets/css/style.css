@@ -282,7 +282,6 @@ h3 {
 
 .mainForm::placeholder {
     position: absolute;
-    margin-left: 2%;
     transform: translateY(50%);
     color: #2F4858;
 }
@@ -304,10 +303,9 @@ h3 {
     margin-left: 1.5%;
 }
 
+/*safari placeholder*/
+
 .mainForm::-webkit-input-placeholder  {
-    position: absolute;
-    margin-left: 2%;
-    transform: translateY(50%);
     -webkit-transform: translateY(50%);
     color: #2F4858;
 }
@@ -325,7 +323,6 @@ h3 {
 }
 
 #message::-webkit-input-placeholder  {
-    transform: translateY(40%);
     -webkit-transform: translateY(40%);
     margin-left: 1.5%;
 }
