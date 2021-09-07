@@ -280,13 +280,28 @@ h3 {
     color: #2F4858;
 }
 
-::-webkit-input-placeholder {
+::placeholder {
     position: absolute;
     margin-left: 2%;
-    -webkit-transform: translateY(50%);
     transform: translateY(50%);
     color: #2F4858;
 }
+
+::-webkit-input-placeholder {
+    margin: 2.5%;
+    position: absolute;
+    margin-left: 2%;
+    color: #2F4858;
+}
+
+::-moz-placeholder {
+    margin: 2.5%;
+    position: absolute;
+    margin-left: 2%;
+    color: #2F4858;
+    opacity: 1;
+}
+
 
 
 
