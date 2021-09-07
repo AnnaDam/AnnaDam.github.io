@@ -1186,12 +1186,12 @@ footer {
 
     #copyright {
         width: 100%;
-        margin-top: 87%;
+        margin-top: 86.7%;
     }  
 
     #privatuma_politika {
         position: absolute;
-        margin-top: 14%;
+        margin-top: 15%;
     }
 
     .kontakti {
@@ -1211,7 +1211,7 @@ footer {
 
     #vards {
         left: 0%;    
-        margin-top: -18%;
+        margin-top: -19%;
 
     }
 }
@@ -1223,7 +1223,7 @@ footer {
     }
 
     .footer_main {
-        margin-top: 25%;
+        margin-top: 21.5%;
     }
 
     #container_teikums {
@@ -1249,6 +1249,14 @@ footer {
 
     .atbalstitaji_pamats {
         height: unset;
+    }
+
+    .kontaktinformacija {
+        margin-top: 4%;
+    }
+
+    #copyright {
+        margin-top: 94%;
     }
 
 }
