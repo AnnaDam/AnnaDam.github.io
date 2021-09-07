@@ -305,12 +305,33 @@ h3 {
     margin-left: 1.5%;
 }
 
-::-webkit-input-placeholder { /* Edge */
-    /*position: absolute;*/
+/*safari placeholder*/
+
+.mainForm::-webkit-input-placeholder {
+    position: absolute;
     -webkit-transform: translateY(50%);
     transform: translateY(50%);
     color: #2F4858;
-  }
+}
+
+#name::-webkit-input-placeholder {
+    margin-left: 3%;
+}
+
+#email::-webkit-input-placeholder {
+    margin-left: 4%;
+}
+
+#phone::-webkit-input-placeholder {
+    margin-left: 1.5%;
+}
+
+#message::-webkit-input-placeholder {
+    -webkit-transform: translateY(40%);
+    transform: translateY(40%);
+    margin-left: 1.5%;
+}
+
 
 #name {
     float: left;
