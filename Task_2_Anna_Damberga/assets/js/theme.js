@@ -24,6 +24,7 @@
         document.getElementById("overlay_navigation").style.height = "100%";
         document.getElementById("go_up").style.zIndex = "-1";
         document.getElementById("close_nav").style.display = "block";
+        document.getElementById("mainLogo").style.position = "fixed";
 
     }
 
@@ -31,5 +32,6 @@
         document.getElementById("overlay_navigation").style.height = "0%";
         document.getElementById("go_up").style.zIndex = "2";
         document.getElementById("close_nav").style.display = "none";
+        document.getElementById("mainLogo").style.position = "absolute";
 
     }
