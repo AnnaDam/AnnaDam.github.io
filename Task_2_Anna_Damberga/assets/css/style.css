@@ -850,7 +850,7 @@ footer {
     }
 
     .atbalstitaji {
-        margin-top: 19%;
+        margin-top: unset;
     }
 
     #grid {
