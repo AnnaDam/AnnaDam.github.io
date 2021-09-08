@@ -1067,6 +1067,10 @@ footer {
         -webkit-transform: translatey(160%);
     }
 
+    .atbalstitaji {
+        margin-top: unset;
+    }
+
     .footer_pamats {
         height: 400px;
     }
