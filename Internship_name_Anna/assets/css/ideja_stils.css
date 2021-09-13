@@ -38,9 +38,9 @@
 
 .imgtext {
     position: absolute;
-    transform: translatey(-157%);
+    transform: translatey(-205%);
     max-width: 818px;
-    margin-left: 21%;
+    margin-left: 20%;
     margin-right: 20%;
     font-family: Oswald, sans-serif;
     font-style: normal;
