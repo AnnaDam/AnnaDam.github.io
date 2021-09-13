@@ -1,0 +1,94 @@
+/* Virsraksts un apraksts */
+
+.apraksts {
+    margin-top: 23.65%;
+    margin-bottom: 11.5%;
+    width: 100%; 
+    text-align: center;
+}
+
+.main-title {
+    left: 43.8%;
+    position: absolute;
+    margin-top: -8%;
+}
+
+.apraksts-text {
+    left: 26.2%;
+    position: relative;
+    width: 43.9%;
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    color: #2F4858;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 22px;
+}
+
+.ideja-bilde-container {
+    position: relative;
+    text-align: center;
+}
+
+.juris {
+    z-index: -1;
+    max-width: 100%;
+}
+
+.imgtext {
+    margin-top: -10%;
+    transform: translateX(30%);
+    width: 63%;
+    font-family: Oswald, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: white;
+}
+
+.ideja-mala1 {
+    position: absolute;
+    width: 100%;
+}
+
+.ideja-mala2 {
+    position: absolute;
+    left: 0;
+    margin-top: -4%;
+    width: 100%;
+}
+
+.comments {
+    position: relative;
+    text-align: left;
+    margin-left: 30%;
+    width: 40%;
+    color: #2F4858;
+}
+
+.author {
+
+}
+
+.profession {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+
+.said-comment {
+    font-family: Montserrat, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.small-pogas {
+
+}
