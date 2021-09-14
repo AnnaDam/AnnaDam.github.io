@@ -57,7 +57,12 @@
 
       <!--Idejas bilde-->
       <div class="ideja-bilde-container">
-        <img src="assets/img/ideja_bilde_top.svg" alt="idejas bildes top" class="ideja-mala1">
+
+        <picture>
+          <source media="(min-width: 461px)" srcset="assets/img/ideja_bilde_top.svg" class="ideja-mala1">
+          <source media="(max-width: 460px)" srcset="assets/img/ideja_bilde_top_mobile.svg" class="ideja-mala1">
+          <img src="assets/img/ideja_bilde_top.svg" alt="idejas bildes top" class="ideja-mala1">
+        </picture>
 
         <picture>
           <source media="(min-width: 901px)" srcset="assets/img/Juris.jpg" class="juris">
@@ -70,7 +75,13 @@
         <p class="imgtext">“Kopš 3 gadu vecuma mani ir audzinājusi mamma, pēc viņas piemēra esmu sapratis, 
             cik sieviete ir spēcīga un varoša. Vēlos atlīdzināt un izveidot platformu, kurā satikties un palīdzēt 
             cilvēkiem piepildīt savus sapņus.”</p>
-        <img src="assets/img/ideja_bilde_bottom.svg" alt="idejas bildes top" class="ideja-mala2">
+
+        <picture>
+          <source media="(min-width: 461px)" srcset="assets/img/ideja_bilde_bottom.svg" class="ideja-mala2">
+          <source media="(max-width: 460px)" srcset="assets/img/ideja_bilde_bottom_mobile.svg" class="ideja-mala2">
+          <img src="assets/img/ideja_bilde_bottom.svg" alt="idejas bildes bottom" class="ideja-mala2">
+        </picture>
+
       </div>
 
     <!--Komentāri-->
@@ -135,7 +146,7 @@
           <br>
           <a href="#privatuma_politika" id="privatuma-politika">Privātuma politika</a>
         </div> 
-      </div> 
-    </footer>
+		  </div> 
+		</footer>
   </body>
 </html>
