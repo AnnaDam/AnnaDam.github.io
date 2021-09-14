@@ -1,0 +1,99 @@
+/* Apraksts/ievads */
+
+footer {
+    z-index: -2;
+}
+
+.piesaki-ievads {
+    margin-top: 15%;
+    margin-left: 2.7%;
+    text-align: center;
+}
+
+.piesaki-apraksts {
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    color: #2F4858;
+}
+
+/* Piesaki sapni */
+
+.pieteikt-sapni {
+    margin-top: 12.8%;
+    width: 100%;
+    margin-bottom: 12%;
+}
+
+.personigs-sapnis {
+    float: left;
+    position: relative;
+    width: 31.147%;
+    text-align: center;
+}
+
+.profesionals-sapnis {
+    float: right;
+    position: relative;
+    width: 31.147%;
+    text-align: center;    
+}
+
+.dream-icon {
+
+}
+
+.sapnu-titles {
+
+}
+
+.sapnu-apraksti {
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    color: #2F4858;
+}
+
+/* Attēli */
+
+.atteli {
+    position: relative;
+    width: 100%;
+}
+
+.p-mala-top {
+    top: -2px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.p-mala-low {
+    margin-top: 24.9%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.container-lauma {
+    position: absolute;
+    width: 21.83%;
+    z-index: -1;
+}
+
+.collumn2 {
+    left: 21.7%;
+    position: absolute;
+    width: 21.82%;
+    z-index: -1;
+}
+
+.container-lauma2 {
+    right: 34.4%;
+    position: absolute;
+    z-index: -1;
+}
+
+.container-meita {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
