@@ -84,6 +84,14 @@
     color: white;
 }
 
+@media (max-width: 1160px) {
+    .imgtext{
+        width: 75%;
+        top: 60%;
+        left: 12%;
+    }
+}
+
 @media (max-width: 900px) {
     .imgtext {
         top: 54%;
@@ -92,12 +100,16 @@
     }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 660px) {
+    .imgtext { top: 54.4%; }
+}
+
+
+@media (max-width: 680px) {
     .imgtext {
-        /*transform: translatey(-152%);*/
-        margin-left: 6%;
-        margin-right: 4.6%;
-        max-width: 280px;
+        top: 50.4%;
+        width: 87.5%;
+        left: 6%;
         font-size: 18px;
         line-height: 26.68px;
     }
