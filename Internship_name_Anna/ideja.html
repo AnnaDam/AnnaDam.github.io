@@ -58,7 +58,15 @@
       <!--Idejas bilde-->
       <div class="ideja-bilde-container">
         <img src="assets/img/ideja_bilde_top.svg" alt="idejas bildes top" class="ideja-mala1">
-        <img src="assets/img/Juris.jpg" alt="Juris" class="juris">
+
+        <picture>
+          <source media="(min-width: 768px)" srcset="assets/img/juris.jpg" class="juris">
+          <source media="(max-width: 460px)" srcset="assets/img/juris_mobile.jpg" class="juris">
+          <img src="assets/img/Juris_tablet.jpg" alt="Juris" class="juris">
+        </picture>
+
+
+       
         <p class="imgtext">“Kopš 3 gadu vecuma mani ir audzinājusi mamma, pēc viņas piemēra esmu sapratis, 
             cik sieviete ir spēcīga un varoša. Vēlos atlīdzināt un izveidot platformu, kurā satikties un palīdzēt 
             cilvēkiem piepildīt savus sapņus.”</p>
@@ -127,7 +135,7 @@
           <br>
           <a href="#privatuma_politika" id="privatuma-politika">Privātuma politika</a>
         </div> 
-      </div> 
-    </footer>
+		  </div> 
+		</footer>
   </body>
 </html>
