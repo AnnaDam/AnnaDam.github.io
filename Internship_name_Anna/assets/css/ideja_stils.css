@@ -3,8 +3,8 @@
 .apraksts {
     margin-top: 24.6%;
     margin-bottom: 11%;
-    text-align: center;
     margin-left: 2.7%;
+    text-align: center;
 }
 
 @media (max-width: 900px) {
@@ -12,8 +12,8 @@
 }
 
 .main-title {
-    margin-left: -2.7%;
     position: relative;
+    margin-left: -2.7%;
     margin-top: -9.9%;
 }
 
@@ -67,6 +67,15 @@
     color: white;
 }
 
+@media (max-width: 900px) {
+    .imgtext {
+        margin-left: 12%;
+        margin-right: 8.6%;
+        transform: translatey(-159%);
+        max-width: 595px;
+    }
+}
+
 .ideja-mala1 {
     position: absolute;
     width: 100%;
@@ -84,24 +93,36 @@
 }
 
 .comments {
+    position: relative;
     margin-top: 10.9%;
     margin-bottom: 10.6%;
-    position: relative;
-    text-align: left;
     margin-left: 27.9%;
     width: 44.071%;
+    text-align: left;
     color: #2F4858;
+}
+
+@media (max-width: 900px) {
+    .comments {
+        margin-top: 19.7%;
+        margin-left: 10.5%;
+        width: 78.071%;
+    }
 }
 
 .profession {
     margin-top: -3%;
     margin-bottom: 6%;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
 
+}
+
+@media (max-width: 900px) {
+    .profession { margin-top: -2%; }
 }
 
 .said-comment {
@@ -116,4 +137,12 @@
 .small-pogas {
     margin-top: 1%;
     margin-right: 7%;
+}
+
+@media (max-width: 900px) {
+    .small-pogas {
+        margin-top: .5%;
+        margin-right: 10.6%;
+        margin-bottom: 11%;
+    }
 }
