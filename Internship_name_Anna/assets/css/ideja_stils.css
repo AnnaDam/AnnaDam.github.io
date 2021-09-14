@@ -11,7 +11,7 @@
     .apraksts { margin-top: 31.4%; }
 }
 
-@media (max-width: 900px){
+@media (max-width: 460px){
     .apraksts { margin-top: 39.4%; }
 }
 
@@ -72,9 +72,9 @@
 
 .imgtext {
     position: absolute;
-    top: 74%;
+    top: 69%;
     width: 59.884%;
-    left: 18%;
+    left: 20%;
     font-family: Oswald, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -86,10 +86,9 @@
 
 @media (max-width: 900px) {
     .imgtext {
-       /* transform: translatey(-159%); */
-        margin-left: 12%;
-        margin-right: 8.6%;
-        max-width: 595px;
+        top: 54%;
+        width: 77.475%;
+        left: 12%;
     }
 }
 
@@ -120,7 +119,7 @@
     .ideja-mala2 { margin-top: 60.8%; }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 460px) {
     .ideja-mala2 { margin-top: 137.5%; }
 }
 
