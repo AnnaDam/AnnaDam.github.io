@@ -72,10 +72,9 @@
 
 .imgtext {
     position: absolute;
-    transform: translatey(-205%);
-    max-width: 818px;
-    margin-left: 20%;
-    margin-right: 20%;
+    top: 74%;
+    width: 59.884%;
+    left: 18%;
     font-family: Oswald, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -87,7 +86,7 @@
 
 @media (max-width: 900px) {
     .imgtext {
-        transform: translatey(-159%);
+       /* transform: translatey(-159%); */
         margin-left: 12%;
         margin-right: 8.6%;
         max-width: 595px;
@@ -96,7 +95,7 @@
 
 @media (max-width: 460px) {
     .imgtext {
-        transform: translatey(-152%);
+        /*transform: translatey(-152%);*/
         margin-left: 6%;
         margin-right: 4.6%;
         max-width: 280px;
@@ -118,7 +117,11 @@
 }
 
 @media (max-width: 900px) {
-    .ideja-mala2{ margin-top: 60.8%; }
+    .ideja-mala2 { margin-top: 60.8%; }
+}
+
+@media (max-width: 900px) {
+    .ideja-mala2 { margin-top: 137.5%; }
 }
 
 .comments {
