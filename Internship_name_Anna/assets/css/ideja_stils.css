@@ -11,6 +11,10 @@
     .apraksts { margin-top: 31.4%; }
 }
 
+@media (max-width: 900px){
+    .apraksts { margin-top: 39.4%; }
+}
+
 .main-title {
     position: relative;
     margin-left: -2.7%;
@@ -38,6 +42,16 @@
     }
 }
 
+@media (max-width: 460px) {
+    .apraksts-text {
+        left: 4.6%;
+        margin-top: -2.1%;
+        width: 88.9%;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
 .ideja-bilde-container {
     position: relative;
     text-align: center;
@@ -45,6 +59,10 @@
 
 @media (max-width: 900px) {
     .ideja-bilde-container{ margin-top: 20%; }
+}
+
+@media (max-width: 460px) {
+    .ideja-bilde-container { margin-top: 26%; }
 }
 
 .juris {
@@ -69,10 +87,21 @@
 
 @media (max-width: 900px) {
     .imgtext {
+        transform: translatey(-159%);
         margin-left: 12%;
         margin-right: 8.6%;
-        transform: translatey(-159%);
         max-width: 595px;
+    }
+}
+
+@media (max-width: 460px) {
+    .imgtext {
+        transform: translatey(-152%);
+        margin-left: 6%;
+        margin-right: 4.6%;
+        max-width: 280px;
+        font-size: 18px;
+        line-height: 26.68px;
     }
 }
 
@@ -110,6 +139,22 @@
     }
 }
 
+@media (max-width: 460px) {
+    .comments {
+        margin-top: 36.7%;
+        margin-left: 6.5%;
+        width: 83.071%;
+    }
+}
+
+@media (max-width: 900px) {
+    .author { font-size: 24px; }
+}
+
+@media (max-width: 460px) {
+    .author { font-size: 18px; }
+}
+
 .profession {
     margin-top: -3%;
     margin-bottom: 6%;
@@ -125,6 +170,13 @@
     .profession { margin-top: -2%; }
 }
 
+@media (max-width: 460px){
+    .profession {
+        line-height: 17px;
+        font-size: 14px;
+    }
+}
+
 .said-comment {
     font-family: Montserrat, sans-serif;
     font-style: italic;
@@ -132,6 +184,14 @@
     font-size: 24px;
     line-height: 29px;
     letter-spacing: .14px;
+}
+
+@media (max-width: 460px) {
+    .said-comment {
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 10%;
+    }
 }
 
 .small-pogas {
@@ -144,5 +204,13 @@
         margin-top: .5%;
         margin-right: 10.6%;
         margin-bottom: 11%;
+    }
+}
+
+@media (max-width: 460px) {
+    .small-pogas {
+        margin-top: 7.5%;
+        margin-right: 14.6%;
+        margin-bottom: 5%;
     }
 }
