@@ -8,9 +8,7 @@
 }
 
 @media (max-width: 900px) {
-    .apraksts {
-        margin-top: 31.4%;
-    }
+    .apraksts { margin-top: 31.4%; }
 }
 
 .main-title {
@@ -45,6 +43,10 @@
     text-align: center;
 }
 
+@media (max-width: 900px) {
+    .ideja-bilde-container{ margin-top: 20%; }
+}
+
 .juris {
     z-index: -1;
     width: 100%;
@@ -75,6 +77,10 @@
     left: 0;
     margin-top: 47.8%;
     width: 100%;
+}
+
+@media (max-width: 900px) {
+    .ideja-mala2{ margin-top: 60.8%; }
 }
 
 .comments {
