@@ -18,7 +18,6 @@
 .pieteikt-sapni {
     margin-top: 6.7%;
     width: 100%;
-    margin-bottom: 12%;
 }
 
 .personigs-sapnis {
@@ -37,9 +36,7 @@
     text-align: center;    
 }
 
-.sapnu-titles {
-    margin-top: 12%;
-}
+.sapnu-titles { margin-top: 12%; }
 
 .sapnu-apraksti {
     margin-top: -1%;
@@ -58,8 +55,9 @@
 
 .atteli {
     position: relative;
-    width: 100%;
-    margin-top: 62.7%;
+    margin-bottom: 92.8%;
+    margin-top: 57.7%;
+    width: 100%; 
 }
 
 .p-mala-top {
@@ -94,6 +92,7 @@
 
 .container-lauma2 {
     margin-top: -.8%;
+    width: 22.109%;
     right: 35.2%;
     position: absolute;
     z-index: -1;
@@ -101,9 +100,14 @@
 
 .container-meita {
     margin-top: -.8%;
+    width: 35.213%;
     position: absolute;
     right: 0;
     z-index: -1;
+}
+
+.collage {
+    width: 100%;
 }
 
 /*  Forma */
@@ -111,7 +115,6 @@
 .sazina {
     position: relative;
     left: 27.6%;
-    margin-top: 101.8%;
     margin-bottom: 11%;
     width: 44.7%;
     text-align: center;
