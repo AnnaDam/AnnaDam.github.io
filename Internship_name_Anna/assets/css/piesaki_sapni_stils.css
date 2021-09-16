@@ -1,17 +1,14 @@
 /* Apraksts/ievads */
 
-footer {
-    z-index: -2;
-}
-
 .piesaki-ievads {
     margin-top: 15%;
-    margin-left: 2.7%;
     text-align: center;
 }
 
 .piesaki-apraksts {
-    font-size: 18px;
+    font-size: 24px;
+    margin-top: 4.4%;
+    letter-spacing: 0.15px;
     font-family: Montserrat, sans-serif;
     color: #2F4858;
 }
@@ -19,19 +16,21 @@ footer {
 /* Piesaki sapni */
 
 .pieteikt-sapni {
-    margin-top: 12.8%;
+    margin-top: 6.7%;
     width: 100%;
     margin-bottom: 12%;
 }
 
 .personigs-sapnis {
     float: left;
+    left: 11.2%;
     position: relative;
     width: 31.147%;
     text-align: center;
 }
 
 .profesionals-sapnis {
+    right: 10.8%;
     float: right;
     position: relative;
     width: 31.147%;
@@ -43,10 +42,25 @@ footer {
 }
 
 .sapnu-titles {
-
+    margin-top: 12%;
 }
 
+/* #pro-sapnis {
+    margin-right: 2%;
+    margin-top: 11.7%;
+}
+
+ #person-apraksts {
+    margin-left: 3%;
+}
+
+#pro-apraksts {
+    margin-left: 3%;
+} */
+
 .sapnu-apraksti {
+    margin-top: -1%;
+    width: 93%;
     font-size: 18px;
     font-family: Montserrat, sans-serif;
     color: #2F4858;
@@ -85,6 +99,8 @@ footer {
     width: 21.82%;
     z-index: -1;
 }
+
+#arta { margin-top: -2%; }
 
 .container-lauma2 {
     right: 34.4%;
