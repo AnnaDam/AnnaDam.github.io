@@ -41,19 +41,6 @@
     margin-top: 12%;
 }
 
-/* #pro-sapnis {
-    margin-right: 2%;
-    margin-top: 11.7%;
-}
-
- #person-apraksts {
-    margin-left: 3%;
-}
-
-#pro-apraksts {
-    margin-left: 3%;
-} */
-
 .sapnu-apraksti {
     margin-top: -1%;
     margin-left: 3.2%;
@@ -63,13 +50,9 @@
     color: #2F4858;
 }
 
-#personigs_poga {
-    margin-top: 28.3%;
-}
+#personigs_poga { margin-top: 28.3%; }
 
-#pro_poga {
-    margin-top: 7.7%;
-}
+#pro_poga { margin-top: 7.7%; }
 
 /* Attēli */
 
@@ -126,12 +109,17 @@
 /*  Forma */
 
 .sazina {
-    left: 27.6%;
-    margin-top: 103%;
-    margin-bottom: 12%;
     position: relative;
+    left: 27.6%;
+    margin-top: 101.8%;
+    margin-bottom: 11%;
     width: 44.7%;
     text-align: center;
+}
+
+.sazina-title {
+    margin-bottom: 5%;
+    margin-top: -1%;
 }
 
 #sazina-form { padding-top: 2%; }
