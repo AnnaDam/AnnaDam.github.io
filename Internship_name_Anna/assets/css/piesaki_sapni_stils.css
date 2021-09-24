@@ -5,12 +5,35 @@
     text-align: center;
 }
 
+@media(max-width: 1150px) {
+    .piesaki-title { margin-top: 21.9%; }
+}
+
+@media(max-width: 460px) {
+    .piesaki-title { margin-top: 29%; }
+}
+
 .piesaki-apraksts {
     font-size: 24px;
     margin-top: 4.4%;
     letter-spacing: 0.15px;
     font-family: Montserrat, sans-serif;
     color: #2F4858;
+}
+
+@media(max-width: 1150px) {
+    .piesaki-apraksts {
+        margin-top: 6.4%;
+        width: 80%;
+        transform: translatex(12.5%);
+    }
+}
+
+@media(max-width: 460px) {
+    .piesaki-apraksts {    
+        font-size: 14px;
+        margin-top: -1.6%;
+    }
 }
 
 /* Piesaki sapni */
@@ -28,12 +51,57 @@
     text-align: center;
 }
 
+@media(max-width: 1150px) {
+    .personigs-sapnis {
+        float: none;
+        left: unset; 
+        margin-top: 12%;
+        width: 100%;
+    }
+
+    .sapnu-titles { margin-top: 6.6%; }
+
+    .sapnu-apraksti {
+        margin-top: 3.5%;
+        margin-left: 8.6%;
+        width: 83%;
+    }
+
+    #personigs-poga { margin-top: 4.9%; }
+}
+
+@media(max-width: 460px) {
+    .personigs-sapnis { margin-top: 26%; }
+
+    .sapnu-apraksti {
+        margin-top: -2%;
+        margin-left: 8%;
+        width: 85%;
+    }
+
+    #personigs_poga { margin-top: 12.9%; }
+}
+
 .profesionals-sapnis {
     right: 11.2%;
     float: right;
     position: relative;
     width: 31.147%;
     text-align: center;    
+}
+
+@media(max-width: 1150px) {
+    .profesionals-sapnis {
+        float: none;
+        right: unset; 
+        margin-top: 19%;
+        width: 100%;
+    }
+}
+
+@media(max-width: 460px) {
+    .profesionals-sapnis { margin-top: 22%; }
+    #pro-icon { margin-left: 12%; }
 }
 
 .sapnu-titles { margin-top: 12%; }
@@ -47,16 +115,35 @@
     color: #2F4858;
 }
 
-#personigs_poga { margin-top: 28.3%; }
+/* #personigs-poga { margin-top: 28.3%; } */
 
-#pro_poga { margin-top: 7.7%; }
+#pro-poga { margin-top: 7.7%; }
+
+@media(max-width: 1150px) {
+    #pro-apraksts {
+        margin-top: 0.3%;
+        margin-left: 9%;
+        width: 82%;
+    }
+
+    #pro-poga { margin-top: 4.7%; }
+}
+
+@media(max-width: 460px) {
+    #pro-apraksts {
+        width: 83%;
+        margin-top: -2.7%;
+    }
+
+    #pro-poga { margin-top: 12.7%; }
+}
 
 /* Attēli */
 
 .atteli {
     position: relative;
-    margin-bottom: 92.8%;
-    margin-top: 57.7%;
+    margin-bottom: 101.9%;
+    margin-top: 62.8%;
     width: 100%; 
 }
 
@@ -74,10 +161,36 @@
     left: 0;
 }
 
+@media(max-width: 1150px) {
+    .atteli { 
+        margin-top: 21%; 
+        margin-bottom: 69%;
+    }
+    .p-mala-top { top: -15px; }
+}
+
+@media(max-width: 460px) {
+    .atteli { 
+        margin-top: 37.8%; 
+        margin-bottom: 185%;
+    }
+    .p-mala-top { top: -4px; }
+
+    .p-mala-low { margin-top: 102%; }
+}
+
 .container-lauma {
     position: absolute;
     width: 21.83%;
     z-index: -1;
+    left: 0;
+}
+
+@media(max-width: 460px) {
+    .container-lauma {
+        width: 50.94%;
+        margin-top: 47%;
+    }
 }
 
 .collumn2 {
@@ -90,12 +203,30 @@
 
 #arta { margin-top: -2%; }
 
+@media(max-width: 460px) {
+    .collumn2 {
+        right: 0;
+        left: unset;
+        margin-top: 44.3%;
+        width: 51.25%;
+    }
+
+    #arta { margin-top: -3%; }
+}
+
 .container-lauma2 {
     margin-top: -.8%;
     width: 22.109%;
     right: 35.2%;
     position: absolute;
     z-index: -1;
+}
+
+@media(max-width: 460px) {
+    .container-lauma2 {
+        width: 38.44%;
+        left: 0;
+    }
 }
 
 .container-meita {
@@ -106,9 +237,14 @@
     z-index: -1;
 }
 
+@media(max-width: 460px) {
+    .container-meita { width: 61.566%; }
+}
+
 .collage {
     width: 100%;
 }
+
 
 /*  Forma */
 
@@ -118,6 +254,10 @@
     margin-bottom: 11%;
     width: 44.7%;
     text-align: center;
+}
+
+@media(max-width: 900px) {
+    .sazina { margin-bottom: 20%; }
 }
 
 .sazina-title {
@@ -359,4 +499,8 @@
         height: 47.69px;
         font-size: 18px;
     }
+}
+
+@media (max-width: 380px) {
+    .footer-main { margin-top: -7.5%; }
 }
