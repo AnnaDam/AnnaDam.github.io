@@ -1,0 +1,152 @@
+.iedvesma-title {
+    margin-top: 15%;
+    text-align: center;
+    position: relative;
+}
+
+.iedvesma-apraksts {
+    margin-top: 3.6%;
+    margin-bottom: 11%;
+    margin-left: 14.7%;
+    text-align: center;
+    letter-spacing: 0.15px;
+    font-size: 24px;
+    width: 70%;
+    font-family: Montserrat, sans-serif;
+    color: #2F4858;
+}
+
+/* grid */
+
+.grid-container {
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5%;
+}
+
+.grid-item {
+    margin: 1%;
+    width: 160px;
+    height: 160px;
+    background-image: url("../img/grid_frame.png");
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.grid-num {
+    position: absolute;
+    z-index: 1;
+    margin-top: 115px;
+    margin-left: 122px;
+}
+
+.grid-img {
+    position: absolute;
+    display: flex;
+    opacity: 0.5;
+}
+
+.empty {
+    padding-top: 10%;
+    margin: 1%;
+    width: 160px;
+    height: 50px;
+}
+
+.balode {
+    position: absolute;
+    z-index: 1;
+    margin-left: 47px;
+    margin-top: 40px;
+    width: 59px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+}
+
+.jauns-stasts {
+    position: absolute;
+    z-index: 1;
+    margin-left: -2px;
+    margin-top: 47px;
+    width: 160px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+}
+
+.team-title {
+    margin-top: 15%;
+    text-align: center;
+    position: relative;
+}
+
+.team-desc {
+    margin-top: 3.6%;
+    margin-bottom: 11%;
+    margin-left: 14.7%;
+    width: 70%;
+    text-align: center;
+    letter-spacing: 0.15px;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: Montserrat, sans-serif;
+    color: #2F4858;
+}
+
+.members {
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5%;
+}
+
+.dalibnieki {
+    position: relative;
+}
+
+.fade {
+    position: absolute;
+    z-index: 1;
+    margin-left: -289px;
+}
+
+.status {
+    position: absolute;
+    z-index: 2;
+    margin-top: -54px;   
+    margin-left: 13px;
+    width: 271px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.94px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.name {
+    margin-top: -90px;
+    font-family: Oswald;
+    font-size: 24px;
+    line-height: 36px;
+}

@@ -1,0 +1,53 @@
+/* Ievads */
+
+.atb-title {
+    margin-top: 15%;
+    text-align: center;
+    position: relative;
+}
+
+.atb-apraksts {
+    margin-top: 3.6%;
+    margin-bottom: 11%;
+    margin-left: 14.7%;
+    text-align: center;
+    letter-spacing: 0.15px;
+    font-size: 24px;
+    width: 70%;
+    font-family: Montserrat, sans-serif;
+    color: #2F4858;
+}
+
+.izvelne { 
+    width: 100%; 
+    overflow: hidden;
+}
+
+.virs-teksts {
+    display: block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #FFA800;
+}
+
+.vieta {
+    float: left;
+}
+
+.veids {
+    float: right;
+}
+
+.atb-select {
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 6px;
+    border: none;
+    width: 288px;
+    height: 43px;
+}
+

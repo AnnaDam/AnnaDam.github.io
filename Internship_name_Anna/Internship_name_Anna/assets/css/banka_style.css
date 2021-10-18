@@ -1,0 +1,203 @@
+.banka-title {
+    margin-top: 15%;
+    text-align: center;
+    position: relative;
+}
+
+/* Video */
+
+.sapnu-vid {
+    margin-top: 5%;
+    position: relative;
+    width: 100%;
+}
+
+#thumbnail { width: 100%; }
+
+#play {
+    left: 0;
+    top: 0.6%;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    width: 9.2%;
+}
+
+@media (max-width: 900px) {
+    .sapnu-vid { margin-top: 9.45%; }
+
+    #play { width: 16.1%; }
+}
+
+@media (max-width: 660px) {
+    .sapnu-vid { margin-top: 15.6%; }
+
+    #play { width: 23.1%; }
+}
+
+/* Mērķi */
+
+.sec-title {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.inner-merki {
+    position: relative;
+    margin-top: 10%;
+    overflow: hidden;
+}
+
+.merki-text {
+    width: 36.604%;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2F4858;
+    text-align: left;
+}
+
+#sun-icon {
+    float: left;
+}
+
+#sun-text {
+    float: right;
+}
+
+#kalni-icon {
+    float: right;
+}
+
+#kalni-text {
+    float: left;
+    text-align: right;
+}
+
+#brilles-icon {
+    float: left;
+}
+
+#brilles-text {
+    float: right;
+}
+
+/* Misija */
+
+.misija-apraksts {
+    margin-top: 3.6%;
+    margin-bottom: 11%;
+    margin-left: 2.7%;
+    text-align: center;
+    letter-spacing: 0.15px;
+    font-size: 24px;
+    font-family: Montserrat, sans-serif;
+    color: #2F4858;
+}
+
+/* Dzeltenais bloks */
+
+.yellow-pamats {
+    z-index: -1;
+}
+
+.white-icon {
+    position: absolute;
+    margin-left: -62%;
+    margin-top: 4%;
+}
+
+.white-text {
+    position: absolute;
+    margin-top: -9%;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* sapņņu atlase */
+
+.inner-atlase {
+    overflow: hidden;
+    text-align: center;
+}
+
+.loudspeaker {
+    float: left;
+    width: 21.011%;
+}
+
+.people {
+    float: right;
+    width: 21.011%;
+}
+
+.atlase-text {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2F4858;
+}
+
+/*  piepildīt sapni */
+
+.sapni {
+    margin-top: 9.8%;
+    padding-bottom: 20.4%;
+    width: 100%;
+}
+
+.sapnotajiem {
+    left: 8%;
+    float: left;
+    position: relative;
+    width: 44.95%;
+    text-align: center;
+}
+
+.uznemejiem {
+    right: 6.2%;
+    position: relative;
+    width: 48.9%;
+    float: right;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .sapni { margin-top: 57%; }
+
+    .sapnotajiem { left: 3%; }
+
+    .uznemejiem {
+        right: 3%;
+        width: 44.95%;
+    }
+}
+
+@media (max-width: 660px) {
+    .sapni { margin-top: 164.4%; }
+
+    .sapnotajiem {
+        left: unset;
+        transform: translatex(6%);
+        margin-bottom: 25%;
+        width: 90%;
+        float: none;
+    }
+
+    .uznemejiem {
+        right: unset;
+        transform: translatex(6%);
+        width: 90%;
+        float: none;
+    }
+}
