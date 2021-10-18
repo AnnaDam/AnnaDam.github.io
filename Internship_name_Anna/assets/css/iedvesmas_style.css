@@ -1,3 +1,5 @@
+.iedvesma-ievads { margin-left: 0.3%; }
+
 .iedvesma-title {
     margin-top: 15%;
     text-align: center;
@@ -5,9 +7,9 @@
 }
 
 .iedvesma-apraksts {
-    margin-top: 3.6%;
-    margin-bottom: 11%;
-    margin-left: 14.7%;
+    margin-top: 4.3%;
+    margin-bottom: 10.6%;
+    margin-left: 14.9%;
     text-align: center;
     letter-spacing: 0.15px;
     font-size: 24px;
@@ -24,11 +26,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 5%;
+    margin: 10%;
 }
 
 .grid-item {
-    margin: 1%;
+    margin: 0.5%;
     width: 160px;
     height: 160px;
     background-image: url("../img/grid_frame.png");
@@ -91,17 +93,19 @@
     text-align: center;
 }
 
+/*komandas dalībnieki*/
+
 .team-title {
-    margin-top: 15%;
+    margin-top: 13.3%;
     text-align: center;
     position: relative;
 }
 
 .team-desc {
-    margin-top: 3.6%;
-    margin-bottom: 11%;
-    margin-left: 14.7%;
-    width: 70%;
+    margin-top: -0.2%;
+    margin-bottom: -0.5%;
+    margin-left: 28.5%;
+    width: 43%;
     text-align: center;
     letter-spacing: 0.15px;
     font-size: 18px;
@@ -117,6 +121,9 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 5%;
+    margin-right: 6%;
+    margin-left: 6%;
+    margin-bottom: 10.6%;
 }
 
 .dalibnieki {
@@ -132,7 +139,7 @@
 .status {
     position: absolute;
     z-index: 2;
-    margin-top: -54px;   
+    margin-top: -66px;  
     margin-left: 13px;
     width: 271px;
     font-family: Montserrat;
@@ -145,7 +152,8 @@
 }
 
 .name {
-    margin-top: -90px;
+    margin-top: -101px;
+    margin-left: 4px;
     font-family: Oswald;
     font-size: 24px;
     line-height: 36px;
