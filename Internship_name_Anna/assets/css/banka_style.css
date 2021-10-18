@@ -73,6 +73,7 @@
 
 #kalni-icon {
     float: right;
+    margin-right: 35.5%;
 }
 
 #kalni-text {
@@ -171,12 +172,12 @@
 }
 
 #vara-desc {
-
+    margin-top: -8.5%;
+    margin-left: 14%;
+    width: 72%;
 }
 
-#varaviksne {
-    
-}
+#varaviksne { margin-left: -66%; }
 
 /*  piepildīt sapni */
 
