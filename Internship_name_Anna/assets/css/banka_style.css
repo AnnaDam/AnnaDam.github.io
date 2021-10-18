@@ -1,234 +1,184 @@
-.banka-title {
-    margin-top: 15%;
-    text-align: center;
-    position: relative;
-}
+<!DOCTYPE html>
+<html lang="lv">
+  <head>
+    <title>Sparkle Heart</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="assets/img/Intersect.png">
+    <link rel="stylesheet" href="assets/font/font.css"> 
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/banka_style.css">
+    <script src="assets/js/theme.js"></script>
+  </head>
+  <body>
 
-/* Video */
+      <!--Izvēlnes pamats-->
+      <div class="menu">
+        <picture>
+          <source media="(min-width: 661px)" srcset="assets/img/desktop_menu.png" class="mala">
+          <source media="(max-width: 660px)" srcset="assets/img/mobile_menu.png" class="mala">
+          <img src="assets/img/desktop_menu.png" class="mala" alt="Izvēlnes mala">
+        </picture>
+        <input type="image" src="assets/img/navigacija.png" id="nav-icon" onclick="openNav()" alt="Atvērt navigāciju">
+        <a href="index.html">
+          <img src="assets/img/BlackLogo.jpg" alt="Sparkle care logo" id="main-logo">
+        </a>
 
-.sapnu-vid {
-    margin-top: 4.6%;
-    position: relative;
-    width: 100%;
-}
+        <!--Navigācija-->
+        <div id="overlay-navigation">
+          <input type="image" src="assets/img/close.png" id="close-nav" onclick="closeNav()" alt="Aizvērt navigāciju">
+          <div class="nav">
+            <ul style="list-style-type: none; ">
+              <li><a href="ideja.html">Ideja</a></li>
+              <li><a href="piesaki_sapni.html" style="margin-left: -5%;" >Piesaki Sapni</a></li>
+              <li><a href="uznemejiem.html" style="margin-left: -10%;">Uzņēmējiem</a></li>
+              <li><a href="sapnu_banka.html" style="margin-left: -14%;" id="selected">Sapņu banka</a></li>
+              <li><a href="sapnus_atbalsta.html" style="margin-left: -15%;">Sapņus atbalsta</a></li>
+              <li><a href="iedvesmas_stasti.html" style="margin-left: -17%;">99 iedvesmas stāsti</a></li>
+              <li><div class="valoda">
+                <a href="#" style="margin-left: -35%;" id="lv">LV</a>
+                <a href="#" class="other-lang">EN</a>
+                <a href="#" class="other-lang">RU</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-#thumbnail { width: 100%; }
+      <h1 class="banka-title">SAPŅU BANKA</h1>
+      <div class="sapnu-vid">
+        <video poster="assets/img/sapnu_bankas_video.jpg" id="thumbnail"></video>
+        <input type="image" name="play" src="assets/img/play.png" id="play" alt="play">
+      </div>
 
-#play {
-    left: 0;
-    top: 0.6%;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    position: absolute;
-    width: 9.2%;
-}
+      <div class="merki">
+        <h2 class="sec-title">MĒŖĶIS</h2>
 
-@media (max-width: 900px) {
-    .sapnu-vid { margin-top: 9.45%; }
+        <div class="inner-merki" id="sun-container">
+          <img src="assets/img/sun.png" id="sun-icon" class="merki-icons" alt="Saule">
+          <p id="sun-text" class="merki-text">Palīdzēt Latvijas un citu valstu sabiedrības locekļiem 
+            gūt panākumus personiskajā dzīvē un piepildīt dzīves sapņus, tādējādi, 
+            veicinot visas sabiedrības labklājību un kopējo laimes indeksu</p>
+        </div>
 
-    #play { width: 16.1%; }
-}
+        <div class="inner-merki" id="kalni-container">
+          <p id="kalni-text" class="merki-text">Palīdzēt Latvijas un citu valstu sabiedrības locekļiem 
+            īstenot sapņus un idejas, kuras ir balstītas uz pasaules un cilvēces 
+            ilgtspējīgu attīstību, tai skaitā izglītošanos un tālākizglītību</p>
+          <img src="assets/img/kalni.png" id="kalni-icon" class="merki-icons" alt="Kalni">
+        </div>
 
-@media (max-width: 660px) {
-    .sapnu-vid { margin-top: 15.6%; }
+        <div class="inner-merki" id="brilles-container">
+          <img src="assets/img/brilles.png" id="brilles-icon" class="merki-icons" alt="Brilles">
+          <p id="brilles-text" class="merki-text">Piesaistīt juridisko un fizisko personu intelektuālos 
+            un finanšu resursus sapņu realizācijai</p>
+        </div>
+      </div>
 
-    #play { width: 23.1%; }
-}
+      <!--Misija-->
+      <div class="misija">
+        <h2 class="sec-title">MISIJA</h2>
+        <p class="misija-apraksts">SparkleHeart ir Latvijā un pasaulē atpazīts zīmols</p>
+        <div class="yellow-block">
+          <img src="assets/img/yellow.png" class="yellow-pamats" alt="Dzeltens pamats">
+          <img src="assets/img/island.png" class="white-icon" alt="Sala">
+          <p class="white-text">Tavai zināšanai, sapņus mēs krājam visu gadu, lai maijā, 
+            kad visa pasaule zied, izvēlētos pašus iedvesmojošākos.</p>
+        </div>
+      </div>
 
-/* Mērķi */
+      <!--Sapņu atlase-->
+      <div class="atlase">
+        <h2 class="sec-title">SAPŅUS ATLASĪS</h2>
+        <div class="inner-atlase">
+          <div class="loudspeaker">
+            <img src="assets/img/loud.png" class="atlase-icon" alt="Loudspeaker">
+            <p class="atlase-text">Publiskais cilvēku balsojums mājas lapā</p>
+          </div>
+          <div class="people">
+            <img src="assets/img/cilveki.png" class="atlase-icon" alt="Cilvēki">
+            <p class="atlase-text">Īpaši izveidota komisija, kur tiek pieaicināti arī SP sadarbības partneri</p>
+          </div>
+        </div>
+        <div class="yellow-block">
+          <picture>
+            <source media="(min-width: 901px)" srcset="assets/img/yellow.png" class="yellow-pamats" alt="Dzeltens pamats">
+            <source media="(max-width: 900px)" srcset="assets/img/yellow_mobile.png" class="yellow-pamats" alt="Dzeltens pamats">
+            <img src="assets/img/yellow.png" class="yellow-pamats" alt="Dzeltens pamats">
+          </picture>
+         
+          <img src="assets/img/varaviksne.png" class="white-icon" id="varaviksne" alt="Varavīksne">
+          <p class="white-text" id="vara-desc">Galvenais kritērijs, lai sapni izvēlētos, ir, vai to realizējot, 
+            mēs padarīsim pasauli labāku. Un pasauli labāku var padarīt gan lielas, gan mazas lietas</p>
+        </div>
+      </div>
 
-.sec-title {
-    margin-top: 10.9%;
-    text-align: center;
-}
+      <!--Sapņi-->
+      <div class="sapni">
+        <div class="sapnotajiem">
+          <h3>VĒLIES PIEPILDĪT SAVU SAPNI?</h3> <br>
+          <button class="button">Sapņotājiem</button>
+        </div>
+        <div class="uznemejiem">
+          <h3>VĒLIES PALĪDZĒT KĀDAM PIEPILDĪT SAPNI?</h3> <br>
+          <button class="button">Uzņēmējiem</button>
+        </div>
+      </div>
 
-.inner-merki {
-    position: relative;
-    margin-top: 7.5%;
-    overflow: hidden;
-}
+    <!--Fiksēta poga "go up"-->
+    <img src="assets/img/go_up.svg" id="go-up" onclick="scrollUp()" alt="Poga uz augšu">
 
-.merki-text {
-    width: 36.604%;
-    font-family: Montserrat, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    color: #2F4858;
-    text-align: left;
-}
+    <!--Footer-->
+    <footer>
+        <div class="footer-main">
+            
+        <!--Footer pamata laukums-->
+        <picture>
+          <source media="(min-width: 461px)" srcset="assets/img/footer_desktop.png" class="footer-pamats">
+          <source media="(max-width: 460px)" srcset="assets/img/footer_mobile.png" class="footer-pamats">
+          <img src="assets/img/footer_desktop.png" class="footer-pamats" alt="Footer pamats">
+        </picture>
 
-#sun-icon {
-    float: left;
-    margin-left: 28%;
-    margin-top: -1%;
-}
+        <!--Footer logo & copyright-->
+        <div class="footer-logo">
+          <img src="assets/img/GoldenV2Logo.png" id="golden-logo" alt="Golden logo">
+          <p id="copyright">© SparkleHeart 2020. Visas tiesības aizsargātas.</p>
+        </div>
 
-#sun-text {
-    float: right;
-    margin-right: 20%;
-}
+        <!--Apakšējā navigācija-->
+        <div class="bottom-nav">
+          <ul style="list-style-type: none; ">
+            <li><a href="ideja.html">Ideja</a></li>
+            <li><a href="piesaki_sapni.html" >Piesaki Sapni</a></li>
+            <li><a href="uznemejiem.html">Uzņēmējiem</a></li>
+            <li><a href="sapnu_banka.html">Sapņu banka</a></li>
+            <li><a href="sapnus_atbalsta.html">Sapņus atbalsta</a></li>
+            <li><a href="iedvesmas_stasti.html">Iedvesmas stāsti</a></li>
+          </ul>
+        </div>
 
-#kalni-icon {
-    float: right;
-    margin-right: 35.5%;
-}
+        <!--Rekvizīti-->
+        <div class="biedribas-info">
+          <p id="biedriba-title">Biedrība SparkleHeart</p>
+          <p class="biedriba-numuri">Reģistrācijas nr. 40008293119</p>
+          <p class="biedriba-numuri">Banka: SWEDBANK A/S</p>
+          <p class="biedriba-numuri">LV52HABA0551047652465</p>
+        </div>
 
-#kalni-text {
-    float: left;
-    text-align: right;
-    margin-left: 11.9%;
-    margin-top: 1.6%;
-}
-
-#brilles-icon {
-    float: left;
-    margin-left: 27.8%;
-    margin-top: 0.8%;
-}
-
-#brilles-text {
-    float: right;
-    margin-top: 2.77%;
-    margin-right: 20%;
-}
-
-/* Misija */
-
-.misija-apraksts {   
-    margin-top: 3.7%;
-    margin-bottom: 11%;
-    margin-left: -0.3%;
-    text-align: center;
-    letter-spacing: 0.15px;
-    font-size: 24px;
-    font-family: Montserrat, sans-serif;
-    color: #2F4858;
-}
-
-/* Dzeltenais bloks */
-
-.yellow-pamats {
-    z-index: -1;
-    width: 100%;
-}
-
-.white-icon {
-    position: absolute;
-    margin-left: -63.5%;
-    margin-top: 5.7%;
-}
-
-.white-text {
-    position: absolute;
-    margin-top: -8.2%;
-    margin-left: 18.5%;
-    width: 63%;
-    font-family: Montserrat, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-/* sapņņu atlase */
-
-.atlase {
-    margin-top: 14.7%;
-    position: relative;
-}
-
-.inner-atlase {
-    overflow: hidden;
-    text-align: center;
-}
-
-.loudspeaker {
-    float: left;
-    width: 21.011%;
-    margin-left: 20.1%;
-    margin-top: 2.6%;
-}
-
-.people {
-    float: right;
-    width: 21.011%;
-    margin-right: 20.2%;
-    margin-top: 4.8%;
-    margin-bottom: 9.9%;
-}
-
-.atlase-text {
-    font-family: Montserrat, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
-    color: #2F4858;
-}
-
-#vara-desc {
-    margin-top: -8.5%;
-    margin-left: 14%;
-    width: 72%;
-}
-
-#varaviksne { margin-left: -66%; }
-
-/*  piepildīt sapni */
-
-.sapni {
-    margin-top: 12.8%;
-    padding-bottom: 22%;
-    width: 100%;
-}
-
-.sapnotajiem {
-    left: 8%;
-    float: left;
-    position: relative;
-    width: 44.95%;
-    text-align: center;
-}
-
-.uznemejiem {
-    right: 6.2%;
-    position: relative;
-    width: 48.9%;
-    float: right;
-    text-align: center;
-}
-
-@media (max-width: 900px) {
-    .sapni { margin-top: 57%; }
-
-    .sapnotajiem { left: 3%; }
-
-    .uznemejiem {
-        right: 3%;
-        width: 44.95%;
-    }
-}
-
-@media (max-width: 660px) {
-    .sapni { margin-top: 164.4%; }
-
-    .sapnotajiem {
-        left: unset;
-        transform: translatex(6%);
-        margin-bottom: 25%;
-        width: 90%;
-        float: none;
-    }
-
-    .uznemejiem {
-        right: unset;
-        transform: translatex(6%);
-        width: 90%;
-        float: none;
-    }
-} 
+        <!--Kontaktinformācija-->
+        <div class="kontakti">
+          <p id="vards">Juris Gogulis</p>
+          <p class="kontaktinformacija">juris.gogulis@sparkleheart.org</p>
+          <p class="kontaktinformacija">+37126890034</p>
+          <p class="kontaktinformacija">Biķernieku iela 24a - 5, LV-1006</p>
+          <a href="#Rekviziti" class="kontaktinformacija" id="rekviziti">Skatīt rekvizītus</a>
+          <input type="image" src="assets/img/facebook.png" class="media" alt="Facebook">
+          <input type="image" src="assets/img/instagram.png" class="media" alt="Instagram">
+          <br>
+          <a href="#privatuma_politika" id="privatuma-politika">Privātuma politika</a>
+        </div> 
+		  </div> 
+		</footer>
+  </body>
+</html>
