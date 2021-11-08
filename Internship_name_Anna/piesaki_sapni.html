@@ -109,7 +109,7 @@
     <div class="sazina">
       <h2 class="sazina-title">SAZINĀTIES AR MUMS</h2> 
       <br>
-      <form name="sazinaForm" id="sazinaForm">
+      <form name="sazinaForm" onsubmit="return validateForm()" action=" " method="post" id="sazinaForm">
         <input type="text" id="name" class="main-form" name="name" placeholder="Vārds, Uzvārds*">
         <input type="text" id="email" class="main-form" name="email" placeholder="E-pasts*"> 
         <input type="text" id="phone" class="main-form" name="phone" placeholder="Telefons*"> 
@@ -117,11 +117,13 @@
 
         <div class="after-form">
           <p id="notice">* obligāti aizpildāmie lauki</p>
-          <input type="checkbox" id="check" name="check">
+          <input type="checkbox" id="check" name="check" value='1'>
           <label id="agreement">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks 
             saglabāti līdz brīdim, kamēr tas būs nepieciešams.</label>
         </div>
-          <input type="button" value="Sūtīt" name="sutit" class="send-button">
+          <p class="sent" id="big-sent" style="font-size: 24px; margin-top: 12%;"></p>
+          <p class="sent" id="smaller-sent" style="font-size: 18px;"></p>
+          <input type="submit" value="Sūtīt" name="submit" class="send-button" id="sending-btn">
       </form>  
     </div>
 
