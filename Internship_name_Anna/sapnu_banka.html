@@ -63,10 +63,10 @@
         </div>
 
         <div class="inner-merki" id="kalni-container">
+          <img src="assets/img/kalni.png" id="kalni-icon" class="merki-icons" alt="Kalni">
           <p id="kalni-text" class="merki-text">Palīdzēt Latvijas un citu valstu sabiedrības locekļiem 
             īstenot sapņus un idejas, kuras ir balstītas uz pasaules un cilvēces 
             ilgtspējīgu attīstību, tai skaitā izglītošanos un tālākizglītību</p>
-          <img src="assets/img/kalni.png" id="kalni-icon" class="merki-icons" alt="Kalni">
         </div>
 
         <div class="inner-merki" id="brilles-container">
@@ -81,7 +81,13 @@
         <h2 class="sec-title">MISIJA</h2>
         <p class="misija-apraksts">SparkleHeart ir Latvijā un pasaulē atpazīts zīmols</p>
         <div class="yellow-block">
-          <img src="assets/img/yellow.png" class="yellow-pamats" alt="Dzeltens pamats">
+
+          <picture>
+            <source media="(min-width: 901px)" srcset="assets/img/PS-yellow-desktop.png" class="yellow-pamats">
+            <source media="(max-width: 460px)" srcset="assets/img/PS-yellow-mobile.png" class="yellow-pamats">
+            <img src="assets/img/PS-yellow-tablet.png" class="yellow-pamats" alt="dzeltenais pamats">
+          </picture>
+
           <img src="assets/img/island.png" class="white-icon" alt="Sala">
           <p class="white-text">Tavai zināšanai, sapņus mēs krājam visu gadu, lai maijā, 
             kad visa pasaule zied, izvēlētos pašus iedvesmojošākos.</p>
@@ -93,16 +99,22 @@
         <h2 class="sec-title">SAPŅUS ATLASĪS</h2>
         <div class="inner-atlase">
           <div class="loudspeaker">
-            <img src="assets/img/loud.png" class="atlase-icon" alt="Loudspeaker">
+            <img src="assets/img/loud.png" class="atlase-icon" id="speaker-icon" alt="Loudspeaker">
             <p class="atlase-text">Publiskais cilvēku balsojums mājas lapā</p>
           </div>
           <div class="people">
-            <img src="assets/img/cilveki.png" class="atlase-icon" alt="Cilvēki">
+            <img src="assets/img/cilveki.png" class="atlase-icon" id="people-icon" alt="Cilvēki">
             <p class="atlase-text">Īpaši izveidota komisija, kur tiek pieaicināti arī SP sadarbības partneri</p>
           </div>
         </div>
         <div class="yellow-block">
-          <img src="assets/img/yellow.png" class="yellow-pamats" alt="Dzeltens pamats">
+
+          <picture>
+            <source media="(min-width: 901px)" srcset="assets/img/PS-yellow-desktop.png" class="yellow-pamats">
+            <source media="(max-width: 460px)" srcset="assets/img/PS-yellow-mobile.png" class="yellow-pamats">
+            <img src="assets/img/PS-yellow-tablet.png" class="yellow-pamats" alt="dzeltenais pamats">
+          </picture>
+
           <img src="assets/img/varaviksne.png" class="white-icon" id="varaviksne" alt="Varavīksne">
           <p class="white-text" id="vara-desc">Galvenais kritērijs, lai sapni izvēlētos, ir, vai to realizējot, 
             mēs padarīsim pasauli labāku. Un pasauli labāku var padarīt gan lielas, gan mazas lietas</p>
