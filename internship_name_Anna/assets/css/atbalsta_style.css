@@ -1,0 +1,237 @@
+/* Ievads */
+
+.atb-title {
+    margin-top: 15%;
+    text-align: center;
+    position: relative;
+}
+
+@media (max-width: 900px) {
+    .atb-title { margin-top: 21.8%; }
+}
+
+.atb-apraksts {
+    margin-top: 4.6%;
+    margin-bottom: 11%;
+    margin-left: 16.7%;
+    text-align: center;
+    letter-spacing: 0.15px;
+    font-size: 18px;
+    width: 67%;
+    font-family: Montserrat, sans-serif;
+    color: #2F4858;
+}
+
+@media (max-width: 900px) {
+    .atb-apraksts {
+        margin-top: 6.6%;
+        margin-left: 10.2%;
+        width: 81%;
+    }
+}
+
+.izvelne { 
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 5%;
+    margin-top: -3.2%;
+}
+
+.virs-teksts {
+    display: block;
+    margin-top: 0%;
+    margin-bottom: 3%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #FFA800;
+}
+
+@media (max-width: 900px) {
+    .virs-teksts { margin-top: 13%; }
+}
+
+.vieta {
+    left: 8%;
+    float: left;
+    position: relative;
+    width: 44.95%;
+    text-align: center;
+}
+
+@media (max-width: 750px) {
+    .vieta { 
+        left: 15%;
+        float: unset;
+        position: relative;
+        width: 70%;
+    }
+}
+
+@media (max-width: 450px) {
+    .vieta { left: 8%; }
+}
+
+.veids {
+    right: 6.2%;
+    position: relative;
+    width: 48.9%;
+    float: right;
+    text-align: center;
+}
+
+@media (max-width: 750px) {
+    .veids { 
+        left: 15%;
+        float: unset;
+        position: relative;
+        width: 70%;
+    }
+}
+
+@media (max-width: 450px) {
+    .veids { left: 8%; }
+}
+
+.atb-select {
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 6px;
+    border: none;
+    width: 288px;
+    height: 43px;
+    font-weight: bold;
+}
+
+.opt-style {
+    border: none;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #2F4858;   
+}
+
+option:checked { font-weight: bold; }
+
+.empty-opt { display: none; }
+
+/* Atbalstītāji */
+
+#sponsors { display: none; }
+
+@media (max-width: 750px) {
+    #sponsors { display: none !important;}
+}
+
+.cafe-name {
+    margin-left: 35.5%;
+    margin-top: -5%;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    align-items: center;
+    color: #2F4858;
+}
+
+@media (max-width: 900px) {
+    .cafe-name {
+        margin-left: 27.5%;
+        margin-top: -9%;
+    }
+}
+
+.cafe-info {
+    margin-right: 20%;
+    margin-top: -4.5%;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #2F4858;
+}
+
+@media (max-width: 900px) {
+    .cafe-info {
+        margin-right: 10%;
+        margin-top: -7.5%;
+    }
+}
+
+#purch-cafe {
+    margin-left: 19.6%;
+    margin-top: 10.8%;
+}
+
+@media (max-width: 900px) {
+    #purch-cafe {
+        margin-left: 8.6%;
+        margin-top: 14.8%;
+    }
+}
+
+.row-2 {
+    margin-top: 4.5%;
+    margin-bottom: 6.4%;
+}
+
+@media (max-width: 900px) {
+    .row-2 { margin-bottom: 11.4%; }
+}
+
+#kurts-cafe { margin-left: 20.1%; }
+
+@media (max-width: 900px) {
+    #kurts-cafe {
+        margin-left: 9.1%;
+        margin-top: 2%;
+    }
+}
+
+#map {
+    width: 100%;
+    height: 658px;
+}
+
+@media (max-width: 900px) {
+    #map { height: 812px; }
+}
+
+/* infowindow */
+.label {
+    font-family: Oswald;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: right;
+}
+
+.info {
+    text-align: right;
+    width: 290.31px;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.infoImg {
+    text-align: left;
+}
+
+footer { margin-top: -4%; }
+
+@media (max-width: 750px) {
+    footer { margin-top: -21%; }
+}
+
+@media (max-width: 450px) {
+    footer { margin-top: -36%; }
+}
+
+.footer-pamats { background-color: unset; }
