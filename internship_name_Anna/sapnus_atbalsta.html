@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="lv">
+  <head>
+    <title>Sparkle Heart</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="assets/img/Intersect.png">
+    <link rel="stylesheet" href="assets/font/font.css"> 
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/atbalsta_style.css">
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+		<script src="https://bitbucket.org/petto/google-maps-utility-library-v3/raw/d5eac62c3a0eadfc724117f5f61e7587fe586c33/infobubble/src/infobubble.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="assets/js/theme.js"></script>
+  </head>
+  <body>
+
+      <!--Izvēlnes pamats-->
+      <div class="menu">
+        <picture>
+          <source media="(min-width: 661px)" srcset="assets/img/desktop_menu.png" class="mala">
+          <source media="(max-width: 660px)" srcset="assets/img/mobile_menu.png" class="mala">
+          <img src="assets/img/desktop_menu.png" class="mala" alt="Izvēlnes mala">
+        </picture>
+        <input type="image" src="assets/img/navigacija.png" id="nav-icon" onclick="openNav()" alt="Atvērt navigāciju">
+        <a href="index.html">
+          <img src="assets/img/BlackLogo.jpg" alt="Sparkle care logo" id="main-logo">
+        </a>
+
+        <!--Navigācija-->
+        <div id="overlay-navigation">
+          <input type="image" src="assets/img/close.png" id="close-nav" onclick="closeNav()" alt="Aizvērt navigāciju">
+          <div class="nav">
+            <ul style="list-style-type: none; ">
+              <li><a href="ideja.html">Ideja</a></li>
+              <li><a href="piesaki_sapni.html" style="margin-left: -5%;" >Piesaki Sapni</a></li>
+              <li><a href="uznemejiem.html" style="margin-left: -10%;">Uzņēmējiem</a></li>
+              <li><a href="sapnu_banka.html" style="margin-left: -14%;">Sapņu banka</a></li>
+              <li><a href="sapnus_atbalsta.html" style="margin-left: -15%;" id="selected">Sapņus atbalsta</a></li>
+              <li><a href="iedvesmas_stasti.html" style="margin-left: -17%;">99 iedvesmas stāsti</a></li>
+              <li><div class="valoda">
+                <a href="#" style="margin-left: -35%;" id="lv">LV</a>
+                <a href="#" class="other-lang">EN</a>
+                <a href="#" class="other-lang">RU</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+			<!--Ievads-->
+			<div class="atbalsta-ievads">
+				<h1 class="atb-title">SAPŅUS ATBALSTA</h1>
+				<p class="atb-apraksts">Sadarbības partneri ir uzņēmumi, kuri savā preču vai pakalpojumu 
+					ikdienā ir integrējuši SparkleHeart zīmolu un dala ar to konkrētu daļu savu ienākumu.</p>
+			</div>
+
+      <!--Izvēlnes-->
+			<div class="izvelne">
+				<div class="vieta">
+					<label for="opt-vieta" class="virs-teksts">Uzņemuma atrašanas vieta</label>
+					<select name="opt-vieta" id="opt-vieta" class="atb-select opt-style" onclick="checkOpt()">
+            <option value="" disabled selected class="empty-opt">Izvēlies</option>
+						<option value="riga" class="opt-style">Rīga</option>
+						<option value="jelgava" class="opt-style">Jelgava</option>
+            <option value="ogre" class="opt-style">Ogre</option>
+					</select>
+				</div>
+				<div class="veids">
+					<label for="opt-veids" class="virs-teksts">Uzņemuma veids</label>
+					<select name="opt-veids" id="opt-veids" class="atb-select opt-style" onclick="checkOpt()">
+            <option value="" disabled selected class="empty-opt" style="font-weight: 500;">Izvēlies</option>
+						<option value="edinasana" class="opt-style">Ēdināšana</option>
+						<option value="viesnica" class="opt-style">Viesnīca</option>
+					</select>
+				</div>
+			</div>
+
+      <!--Atbalstītāji-->
+      <div id="sponsors">
+        <div class="row-1">
+          <img src="assets/img/purch-restaurant.jpg" class="cafe-logos" id="purch-cafe" alt="PURCH restaurant">
+          <p class="cafe-name">PURCH restaurant</p>
+          <p class="cafe-info">+371 25425254 <br> Dzelzavas iela 51A</p>
+        </div>
+        <div class="row-2">
+          <img src="assets/img/kurtis-coffee.jpg" class="cafe-logos" id="kurts-cafe" alt="Kurts coffee">
+          <p class="cafe-name">Kurts coffee</p>
+          <p class="cafe-info">+371 23202079 <br> Cēsu iela 20, Tērbatas iela 2i</p>
+        </div>
+      </div>
+
+      <!--Karte-->
+      <div id="map"></div>
+
+			<!--Javascript failā neaizgāja-->
+      <script>
+				
+					if ($(window).width() < 960) {
+						var mapOptions = {disableDefaultUI: true}
+					}
+					var firstPos = new google.maps.LatLng(56.946285, 24.105078);
+					var markPos2 = new google.maps.LatLng(56.935285, 24.103078);
+					var markPos3 = new google.maps.LatLng(56.964285, 24.113078);
+					var mapOptions = {
+						zoom: 13,
+						center: firstPos,
+					}
+					var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+					
+					var marker = new google.maps.Marker({
+						position: firstPos,
+						icon: 'assets/img/yellow-key.png',
+					});
+
+					var marker2 = new google.maps.Marker({
+						position: markPos2,
+						icon: 'assets/img/yellow-key.png',
+					});
+
+					var marker3 = new google.maps.Marker({
+						position: markPos3,
+						icon: 'assets/img/yellow-key.png',
+					});
+
+					marker.setMap(map);
+					marker2.setMap(map);
+					marker3.setMap(map);
+
+					var infoBubble = new InfoBubble({
+						map: map,
+						content: '<div class="label">AUCH beauty home</div>'+
+						'<div class="info">+371 28361686, +371 23202079 auchbeauty@gmail.com Cēsu iela 20, Rīga</div>'+
+						'<div class="infoImg"><img src="assets/img/AUCHlogo.png"></img></div>',
+						backgroundColor: 'rgba(255, 168, 0, 0.5)',
+						borderRadius: 14,
+						borderColor: 'rgba(255, 168, 0, 0.5)',
+					});
+
+					google.maps.event.addListener(marker, 'click', function() {
+						infoBubble.open(map,marker);
+					});
+
+					google.maps.event.addListener(marker2, 'click', function() {
+						infoBubble.open(map,marker2);
+					});
+
+					google.maps.event.addListener(marker3, 'click', function() {
+						infoBubble.open(map,marker3);
+					});
+
+
+      </script> 
+
+      <!--Fiksēta poga "go up"-->
+    <img src="assets/img/go_up.svg" id="go-up" onclick="scrollUp()" alt="Poga uz augšu"> 
+
+    <!--Footer-->
+    <footer>
+        <div class="footer-main">
+            
+        <!--Footer pamata laukums-->
+        <picture>
+          <source media="(min-width: 461px)" srcset="assets/img/footer_desktop.png" class="footer-pamats">
+          <source media="(max-width: 460px)" srcset="assets/img/footer_mobile.png" class="footer-pamats">
+          <img src="assets/img/footer_desktop.png" class="footer-pamats" alt="Footer pamats">
+        </picture>
+
+        <!--Footer logo & copyright-->
+        <div class="footer-logo">
+          <img src="assets/img/GoldenV2Logo.png" id="golden-logo" alt="Golden logo">
+          <p id="copyright">© SparkleHeart 2020. Visas tiesības aizsargātas.</p>
+        </div>
+
+        <!--Apakšējā navigācija-->
+        <div class="bottom-nav">
+          <ul style="list-style-type: none; ">
+            <li><a href="ideja.html">Ideja</a></li>
+            <li><a href="piesaki_sapni.html" >Piesaki Sapni</a></li>
+            <li><a href="uznemejiem.html">Uzņēmējiem</a></li>
+            <li><a href="sapnu_banka.html">Sapņu banka</a></li>
+            <li><a href="sapnus_atbalsta.html">Sapņus atbalsta</a></li>
+            <li><a href="iedvesmas_stasti.html">Iedvesmas stāsti</a></li>
+          </ul>
+        </div>
+
+        <!--Rekvizīti-->
+        <div class="biedribas-info">
+          <p id="biedriba-title">Biedrība SparkleHeart</p>
+          <p class="biedriba-numuri">Reģistrācijas nr. 40008293119</p>
+          <p class="biedriba-numuri">Banka: SWEDBANK A/S</p>
+          <p class="biedriba-numuri">LV52HABA0551047652465</p>
+        </div>
+
+        <!--Kontaktinformācija-->
+        <div class="kontakti">
+          <p id="vards">Juris Gogulis</p>
+          <p class="kontaktinformacija">juris.gogulis@sparkleheart.org</p>
+          <p class="kontaktinformacija">+37126890034</p>
+          <p class="kontaktinformacija">Biķernieku iela 24a - 5, LV-1006</p>
+          <a href="#Rekviziti" class="kontaktinformacija" id="rekviziti">Skatīt rekvizītus</a>
+          <input type="image" src="assets/img/facebook.png" class="media" alt="Facebook">
+          <input type="image" src="assets/img/instagram.png" class="media" alt="Instagram">
+          <br>
+          <a href="#privatuma_politika" id="privatuma-politika">Privātuma politika</a>
+        </div> 
+		  </div> 
+		</footer>
+  </body>
+</html>
